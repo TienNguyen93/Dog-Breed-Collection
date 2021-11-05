@@ -12,6 +12,6 @@ The application aims to return the essential information of the selected breed b
 * Users should be able to do close examination of dog breed in his/her interest
 
 ## Credits
-Tien Nguyen
-Deye Lei
+* Tien Nguyen
+* Deye Lei
 
