@@ -1,0 +1,12 @@
+html{
+  box-sizing:border-box;
+  width:100%;
+  margin:0px;
+  border-width: 0px;
+}
+body{
+  box-sizing:border-box;
+  border-width: 0px;
+  width: 100%;
+  margin: 0px;
+}
