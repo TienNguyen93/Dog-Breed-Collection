@@ -1,0 +1,139 @@
+.Navigation_bar{
+  box-sizing: border-box;
+  height: 15vh;
+  width:100%;
+  display:flex;
+  background-color: rgba(62, 237, 231, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  color:white;
+}
+#Content_Container{
+  box-sizing: border-box;
+  display:flex;
+  width:100%;
+  height:85vh;
+}
+
+#Side_Bar{
+  box-sizing: border-box;
+  width:25%;
+  height:100%;
+  border-style: none;
+  background-color: blanchedalmond;
+  position: relative;
+}
+
+#NameTextBox{
+  position: relative;
+  top:30%;
+  left:15%;
+  right:15%;
+  display:block;
+  height: 10%;
+  width:70%;
+  border-radius: 15px;
+  border-style:solid;
+  border-width: 3px;
+  border-color: rgba(62, 237, 231, 0.9);
+  font-size:20px;
+}
+
+.SearchButton{
+  box-sizing: border-box;
+  display:block;
+  position: relative;
+  top:75%;
+  left:35%;
+  width:30%;
+  height:10%;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 25px;
+  border-width: 1px;
+  padding: 5px, 5px, 5px, 5px;
+  background-color: cyan;
+  border-color:white;
+  border-style: solid;
+  color:white;
+
+}
+.SearchButton:hover{
+  background-color: rgba(255, 179, 167, 0.9);
+}
+
+#NameTextBox:focus{
+  border-color: lime;
+  width:80%;
+  left:10%;
+}
+
+#DogSticker{
+  position: absolute;
+  height: 150px;
+  width:150px;
+  left:30%;
+}
+
+#DisplayContent{
+  box-sizing: border-box;
+  width:75%;
+  height:100%;
+  overflow-x:scroll;
+  margin: 0px;
+  background-color: blanchedalmond;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h2,h4{
+  display:inline;
+}
+
+h4{
+  position:relative;
+  height:25%;
+}
+
+.InnerItem{
+  box-sizing: border-box;
+  margin-top:5%;
+}
+
+.seconditem{
+  margin-left: 10%;
+  display:inline;
+}
+
+#ulcontainer{
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+}
+
+.ListContainer{
+  box-sizing:border-box;
+  margin:-16px, 0px, 0px, 0px;
+  border-radius: 10px;
+  height: 25%;
+  width:100%;
+  position:relative;
+  
+}
+
+.ListItem{
+  position: relative;
+  top:10%;
+}
+
+.ListContainer:hover{
+  background-color: rgba(255, 179, 167, 0.9);
+}
+
