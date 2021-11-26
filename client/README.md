@@ -8,8 +8,11 @@ The application aims to return the essential information of the selected breed b
 
 ## Features
 * Users should be advised to their desired dog breed based on the query on our database
-* Users should be able to add their favorite dog breeds into their collection for comparison purposes
-* Users should be able to do close examination of dog breed in his/her interest
+
+## Technology
+* Python, HTML, CSS
+* Flask, XAMPP, MySQL
+
 
 ## Credits
 * Tien Nguyen
