@@ -1,0 +1,12 @@
+{#templates/response.html#}
+{% for row in breedList %}
+<tr>
+    <td>{{row.name}}</td>
+    <td>{{row.avgheight}}</td>
+    <td>{{row.avgweight}}</td>
+    <td>{{row.avglifespan}}</td>
+    <td>{{row.classification}}</td>
+    <td>{{row.obedience}}</td>
+    <td>{{row.bgroup}}</td>
+</tr>
+{% endfor %} 
