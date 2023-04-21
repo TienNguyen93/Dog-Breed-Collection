@@ -7,7 +7,7 @@ const cors = require('cors')//models to fix some error
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'Lkmqna19820615ss',
+    password: '1234567Deye@',
     database: '435project',
     
 });
